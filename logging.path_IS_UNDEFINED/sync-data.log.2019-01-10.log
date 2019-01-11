@@ -1,0 +1,1082 @@
+2019-01-10 11:24:17.177 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73125 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:24:17.180 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:24:17.240 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:24:17.240 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:24:17.748 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:24:17.748 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:24:17.852 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:24:18.073 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$31ffe760] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:24:18.128 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b942932] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:24:18.449 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:24:18.460 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:24:18.464 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:24:18.464 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:24:18.469 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:24:18.557 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:24:18.557 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1317 ms
+2019-01-10 11:24:18.587 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:24:18.590 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:24:18.591 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:24:18.591 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:24:18.591 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:24:19.210 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:24:19.254 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:24:19.603 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:24:19.616 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:24:19.625 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:24:19.703 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:24:19.733 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#17685f25:0/SimpleConnection@37723a78 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 63266]
+2019-01-10 11:24:19.818 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:24:19.843 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:24:19.858 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:24:19.862 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 23.036 seconds (JVM running for 33.631)
+2019-01-10 11:24:27.844 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:24:27.845 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:24:27.851 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-01-10 11:24:27.877 [http-nio-3789-exec-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-01-10 11:24:27.881 [http-nio-3789-exec-1] INFO  o.s.a.r.l.DirectReplyToMessageListenerContainer - Container initialized for queues: [amq.rabbitmq.reply-to]
+2019-01-10 11:24:27.886 [http-nio-3789-exec-1] INFO  o.s.a.r.l.DirectReplyToMessageListenerContainer - SimpleConsumer [queue=amq.rabbitmq.reply-to, consumerTag=amq.ctag-gINdtJHF9rjQ8JI6_88NQA identity=34d9b4c4] started
+2019-01-10 11:24:27.897 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$d6259dc8 - 接收处理队列A当中的消息:rabbit0
+2019-01-10 11:24:32.910 [http-nio-3789-exec-1] ERROR o.a.c.c.C.[.[.[/springboot].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.bonc.rabbit.MsgProducer.sendMsg(MsgProducer.java:58)
+	at com.bonc.rabbit.testController.send(testController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 11:26:56.533 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:26:57.323 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:26:57.325 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:26:58.273 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:26:58.275 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:26:58.306 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:26:58.308 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:26:59.274 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:26:59.276 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:26:59.276 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:26:59.276 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:26:59.278 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:26:59.278 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:28:41.292 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73167 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:28:41.295 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:28:41.358 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:28:41.358 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:28:41.860 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:28:41.861 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:28:41.964 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:28:42.189 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9428222e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:28:42.245 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cdbc6400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:28:42.550 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:28:42.560 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:28:42.563 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:28:42.564 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:28:42.569 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:28:42.650 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:28:42.650 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1291 ms
+2019-01-10 11:28:42.677 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:28:42.681 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:28:42.681 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:28:42.681 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:28:42.681 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:28:43.274 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:28:43.313 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:28:43.613 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:28:43.628 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:28:43.637 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:28:43.724 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:28:43.755 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#140e98c2:0/SimpleConnection@19700c58 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 63967]
+2019-01-10 11:28:43.839 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:28:43.862 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:28:43.875 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:28:43.879 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.895 seconds (JVM running for 33.465)
+2019-01-10 11:28:49.271 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:28:49.272 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:28:49.279 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 11:28:49.305 [http-nio-3789-exec-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-01-10 11:28:49.309 [http-nio-3789-exec-1] INFO  o.s.a.r.l.DirectReplyToMessageListenerContainer - Container initialized for queues: [amq.rabbitmq.reply-to]
+2019-01-10 11:28:49.314 [http-nio-3789-exec-1] INFO  o.s.a.r.l.DirectReplyToMessageListenerContainer - SimpleConsumer [queue=amq.rabbitmq.reply-to, consumerTag=amq.ctag-hfIFSyE2krczgrthPLYiCg identity=5c82ae4d] started
+2019-01-10 11:28:49.328 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$384dd896 - 接收处理队列A当中的消息:rabbit0
+2019-01-10 11:28:54.332 [http-nio-3789-exec-1] ERROR o.a.c.c.C.[.[.[/springboot].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.bonc.rabbit.MsgProducer.sendMsg(MsgProducer.java:58)
+	at com.bonc.rabbit.testController.send(testController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 11:29:44.144 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:29:44.488 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:29:44.491 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:29:44.967 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:29:44.969 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:29:45.968 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:29:45.972 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:29:46.013 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:29:46.015 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:29:46.015 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:29:46.015 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:29:46.016 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:29:46.017 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:30:19.499 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73180 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:30:19.502 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:30:19.560 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:30:19.560 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:30:20.056 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:30:20.057 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:30:20.161 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:30:20.382 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c6f0e44f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:30:20.436 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$852621] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:30:20.732 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:30:20.742 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:30:20.746 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:30:20.746 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:30:20.751 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:30:20.833 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:30:20.833 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1273 ms
+2019-01-10 11:30:20.860 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:30:20.863 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:30:20.864 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:30:20.864 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:30:20.864 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:30:21.425 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:30:21.464 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:30:21.752 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:30:21.766 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:30:21.775 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:30:21.851 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:30:21.882 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#5dc9d062:0/SimpleConnection@3ed312ae [delegate=amqp://admin@192.168.31.114:5672/, localPort= 64243]
+2019-01-10 11:30:21.965 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:30:21.988 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:30:21.999 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:30:22.003 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.816 seconds (JVM running for 33.377)
+2019-01-10 11:30:35.669 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:30:35.670 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:30:35.677 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 11:30:35.706 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$6b169ab7 - 接收处理队列A当中的消息:rabbit0
+2019-01-10 11:30:36.397 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$6b169ab7 - 接收处理队列A当中的消息:rabbit2
+2019-01-10 11:30:36.398 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$6b169ab7 - 接收处理队列A当中的消息:rabbit4
+2019-01-10 11:30:36.399 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$6b169ab7 - 接收处理队列A当中的消息:rabbit6
+2019-01-10 11:30:36.400 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$6b169ab7 - 接收处理队列A当中的消息:rabbit8
+2019-01-10 11:33:12.096 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:33:12.835 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:33:12.838 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:33:13.381 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:33:13.383 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:33:14.381 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:33:14.384 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:33:14.837 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:33:14.839 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:33:14.840 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:33:14.840 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:33:14.841 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:33:14.842 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:36:07.833 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73223 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:36:07.837 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:36:07.896 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:36:07.896 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:36:08.392 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:36:08.393 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:36:08.498 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:36:08.715 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a7bcd9b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:36:08.770 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1511b87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:36:09.068 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:36:09.077 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:36:09.081 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:36:09.081 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:36:09.086 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:36:09.166 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:36:09.166 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1269 ms
+2019-01-10 11:36:09.193 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:36:09.197 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:36:09.197 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:36:09.197 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:36:09.197 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:36:09.746 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:36:09.783 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:36:10.071 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:36:10.084 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:36:10.092 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:36:10.167 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:36:10.197 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#3967ff0f:0/SimpleConnection@5f42f629 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 65144]
+2019-01-10 11:36:10.292 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:36:10.314 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:36:10.325 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:36:10.329 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.807 seconds (JVM running for 33.372)
+2019-01-10 11:36:18.412 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:36:18.413 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:36:18.420 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 11:36:18.449 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$4be2901d - 接收处理队列A当中的消息:rabbit0
+2019-01-10 11:36:18.750 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$4be2901d - 接收处理队列A当中的消息:rabbit2
+2019-01-10 11:36:18.751 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$4be2901d - 接收处理队列A当中的消息:rabbit4
+2019-01-10 11:36:18.752 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$4be2901d - 接收处理队列A当中的消息:rabbit6
+2019-01-10 11:36:18.752 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$4be2901d - 接收处理队列A当中的消息:rabbit8
+2019-01-10 11:40:23.378 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:40:23.421 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:40:23.425 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:40:23.953 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:40:23.955 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:40:24.421 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:40:24.424 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:40:24.980 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:40:24.982 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:40:24.983 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:40:24.983 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:40:24.984 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:40:24.985 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:40:57.818 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73259 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:40:57.821 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:40:57.879 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:40:57.879 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:40:58.370 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:40:58.370 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:40:58.473 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:40:58.695 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a453a7cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:40:58.749 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dde7e99d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:40:59.048 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:40:59.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:40:59.061 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:40:59.062 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:40:59.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:40:59.148 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:40:59.149 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1270 ms
+2019-01-10 11:40:59.175 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:40:59.179 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:40:59.179 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:40:59.179 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:40:59.179 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:40:59.728 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:40:59.764 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:41:00.053 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:41:00.065 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:41:00.073 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:41:00.150 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:41:00.179 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#474e131a:0/SimpleConnection@38adc8a6 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 49525]
+2019-01-10 11:41:00.382 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:41:00.404 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:41:00.415 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:41:00.418 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.909 seconds (JVM running for 33.5)
+2019-01-10 11:42:31.341 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:42:31.342 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:42:31.348 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-01-10 11:42:31.391 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$48795e33 - 接收处理队列A当中的消息:rabbit0
+2019-01-10 11:42:31.801 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$48795e33 - 接收处理队列A当中的消息:rabbit2
+2019-01-10 11:42:31.803 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$48795e33 - 接收处理队列A当中的消息:rabbit4
+2019-01-10 11:42:31.804 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$48795e33 - 接收处理队列A当中的消息:rabbit6
+2019-01-10 11:42:31.805 [messageListenerContainer-1] INFO  c.b.r.RabbitConfig$$EnhancerBySpringCGLIB$$48795e33 - 接收处理队列A当中的消息:rabbit8
+2019-01-10 11:43:27.466 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:43:27.960 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:43:27.963 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:43:28.834 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:43:28.837 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:43:29.836 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:43:29.838 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:43:29.973 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:43:29.975 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:43:29.975 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:43:29.975 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:43:29.977 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:43:29.977 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:44:43.664 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73285 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:44:43.667 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:44:43.727 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:44:43.727 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:44:44.234 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:44:44.235 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:44:44.339 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:44:44.563 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5ff2511b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:44:44.619 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$998692ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:44:44.923 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:44:44.933 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:44:44.936 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:44:44.937 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:44:44.942 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:44:45.023 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:44:45.023 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1296 ms
+2019-01-10 11:44:45.049 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:44:45.053 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:44:45.053 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:44:45.053 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:44:45.053 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:44:45.606 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:44:45.642 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:44:45.945 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:44:45.957 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:44:45.966 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:44:46.035 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:44:46.075 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#6a438aaf:0/SimpleConnection@7248156 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 50123]
+2019-01-10 11:44:46.159 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:44:46.182 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:44:46.195 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:44:46.199 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.846 seconds (JVM running for 33.413)
+2019-01-10 11:45:04.779 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:45:04.780 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:45:04.787 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 11:48:02.511 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:48:02.694 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:48:02.696 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:48:03.696 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:48:03.698 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:48:03.771 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:48:03.774 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:48:03.774 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:48:03.774 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:48:03.775 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:48:36.342 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73318 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 11:48:36.345 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 11:48:36.405 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 11:48:36.405 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 11:48:36.923 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 11:48:36.924 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 11:48:37.024 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 11:48:37.255 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$cb40e43d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:48:37.308 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d5260f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:48:37.630 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 11:48:37.641 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:48:37.645 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 11:48:37.645 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 11:48:37.650 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 11:48:37.735 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 11:48:37.736 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1331 ms
+2019-01-10 11:48:37.764 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:48:37.769 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:48:37.769 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:48:37.769 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 11:48:37.769 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:48:38.345 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:48:38.384 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 11:48:38.684 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 11:48:38.697 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 11:48:38.706 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 11:48:38.779 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 11:48:38.827 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#39461f26:0/SimpleConnection@26eb9014 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 50748]
+2019-01-10 11:48:38.909 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 11:48:38.933 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 11:48:38.944 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 11:48:38.948 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.915 seconds (JVM running for 33.495)
+2019-01-10 11:49:14.465 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 11:49:14.466 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 11:49:14.473 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 11:49:14.506 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit0
+2019-01-10 11:49:14.660 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit1
+2019-01-10 11:49:14.660 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit2
+2019-01-10 11:49:14.661 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit3
+2019-01-10 11:49:14.661 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit4
+2019-01-10 11:49:14.662 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit5
+2019-01-10 11:49:14.662 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit6
+2019-01-10 11:49:14.662 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit7
+2019-01-10 11:49:14.662 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit8
+2019-01-10 11:49:14.663 [SimpleAsyncTaskExecutor-1] INFO  com.bonc.rabbit.MsgReceiver - 接收处理队列A当中的消息： rabbit9
+2019-01-10 11:57:42.325 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:57:42.450 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:57:42.452 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:57:43.451 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:57:43.453 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 11:57:44.206 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 11:57:44.208 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:57:44.209 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:57:44.209 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 11:57:44.210 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:14:19.276 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73815 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 14:14:19.279 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 14:14:19.340 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 14:14:19.340 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 14:14:19.866 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 14:14:19.867 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 14:14:19.973 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 14:14:20.203 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f53735b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:14:20.262 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ecb7789] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:14:20.570 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 14:14:20.579 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:14:20.583 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 14:14:20.583 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 14:14:20.588 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 14:14:20.671 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 14:14:20.672 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1332 ms
+2019-01-10 14:14:20.699 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 14:14:20.703 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 14:14:20.703 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 14:14:20.703 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 14:14:20.703 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 14:14:21.277 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:14:21.315 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 14:14:21.620 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 14:14:21.633 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 14:14:21.641 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 14:14:21.711 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 14:14:21.753 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#68023ac4:0/SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611]
+2019-01-10 14:14:22.337 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:14:22.361 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 14:14:22.373 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 14:14:22.377 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 23.423 seconds (JVM running for 34.027)
+2019-01-10 14:14:34.296 [pool-1-thread-6] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Cancel received for amq.ctag-CZAE5r9aDJh-dw_IV7WUJg (hello); Consumer@448e1acb: tags=[[amq.ctag-CZAE5r9aDJh-dw_IV7WUJg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,1), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:14:34.345 [SimpleAsyncTaskExecutor-1] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2019-01-10 14:14:34.346 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@448e1acb: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,1), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:14:34.354 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:14:34.357 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=3
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:14:39.362 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:14:39.362 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=2
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:14:44.373 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:14:44.374 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=1
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:14:49.380 [SimpleAsyncTaskExecutor-2] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:14:49.382 [SimpleAsyncTaskExecutor-2] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Consumer received fatal=false exception on startup
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	... 2 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:14:49.383 [SimpleAsyncTaskExecutor-2] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Stopping container from aborted consumer
+2019-01-10 14:14:49.384 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:14:49.384 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:14:58.320 [pool-1-thread-13] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Cancel received for amq.ctag-Yxxv2N8Q4cIOTDArWplnpg (QUEUE_A); Consumer@3d93e30: tags=[[amq.ctag-Yxxv2N8Q4cIOTDArWplnpg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,3), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:14:58.416 [SimpleAsyncTaskExecutor-1] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2019-01-10 14:14:58.416 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3d93e30: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,3), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:15:04.123 [pool-1-thread-17] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Cancel received for amq.ctag-WEBVWSLmf5emkvOtib7ULA (QUEUE_B); Consumer@3b67533a: tags=[[amq.ctag-WEBVWSLmf5emkvOtib7ULA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,2), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:15:04.434 [SimpleAsyncTaskExecutor-1] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2019-01-10 14:15:04.434 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3b67533a: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,2), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:15:21.969 [pool-1-thread-5] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Cancel received for amq.ctag-fGOOYzAeCAS_WRtpIcFp9w (QUEUE_A); Consumer@35c9ad11: tags=[[amq.ctag-fGOOYzAeCAS_WRtpIcFp9w]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,4), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:15:22.371 [SimpleAsyncTaskExecutor-2] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2019-01-10 14:15:22.371 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@35c9ad11: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.31.114:5672/,4), conn: Proxy@3efb3724 Shared Rabbit Connection: SimpleConnection@7e367268 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 61611], acknowledgeMode=AUTO local queue size=0
+2019-01-10 14:15:43.027 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 14:15:43.028 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 14:15:43.035 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-01-10 14:16:23.794 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:16:23.797 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:16:24.004 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:16:24.006 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:16:24.246 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:16:24.248 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:16:24.248 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:16:24.248 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:16:24.249 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:16:56.920 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73834 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 14:16:56.923 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 14:16:56.981 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 14:16:56.981 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 14:16:57.492 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 14:16:57.493 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 14:16:57.600 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 14:16:57.829 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c837c38e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:16:57.884 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cc0560] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:16:58.185 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 14:16:58.195 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:16:58.199 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 14:16:58.199 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 14:16:58.204 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 14:16:58.284 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 14:16:58.285 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1304 ms
+2019-01-10 14:16:58.311 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 14:16:58.316 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 14:16:58.316 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 14:16:58.316 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 14:16:58.316 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 14:16:58.873 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:16:58.909 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 14:16:59.213 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 14:16:59.225 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 14:16:59.234 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 14:16:59.303 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 14:16:59.336 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#6aba2f65:0/SimpleConnection@2764b016 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 62032]
+2019-01-10 14:16:59.401 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:16:59.403 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=3
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:17:04.409 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:17:04.410 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=2
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:17:09.414 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:17:09.415 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Queue declaration failed; retries left=1
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:17:14.423 [SimpleAsyncTaskExecutor-1] WARN  o.s.amqp.rabbit.listener.BlockingQueueConsumer - Failed to declare queue: hello
+2019-01-10 14:17:14.425 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Consumer received fatal=false exception on startup
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	... 2 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:17:14.426 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.amqp.rabbit.config.internalRabbitListenerEndpointRegistry'; nested exception is org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+2019-01-10 14:17:14.427 [restartedMain] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:17:14.428 [restartedMain] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:17:14.428 [restartedMain] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:17:14.428 [restartedMain] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:17:14.428 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Stopping container from aborted consumer
+2019-01-10 14:17:14.428 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:17:14.429 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:17:14.437 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-01-10 14:17:14.453 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-10 14:17:14.460 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.amqp.rabbit.config.internalRabbitListenerEndpointRegistry'; nested exception is org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:879)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.bonc.SpringbootfreemarkerApplication.main(SpringbootfreemarkerApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doStart(SimpleMessageListenerContainer.java:531)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:1227)
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistry.startIfNecessary(RabbitListenerEndpointRegistry.java:291)
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistry.start(RabbitListenerEndpointRegistry.java:246)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 19 common frames omitted
+Caused by: org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1027)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[hello]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:699)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:588)
+	... 2 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:126)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:122)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:144)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1006)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:52)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.queueDeclarePassive(PublisherCallbackChannelImpl.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1071)
+	at com.sun.proxy.$Proxy100.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:678)
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:288)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:138)
+	... 13 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'hello' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:516)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:346)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:670)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	... 1 common frames omitted
+2019-01-10 14:18:22.523 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73851 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 14:18:22.526 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 14:18:22.586 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 14:18:22.586 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 14:18:23.086 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 14:18:23.086 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 14:18:23.189 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 14:18:23.416 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$845909e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:18:23.470 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bded4bb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:18:23.777 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 14:18:23.786 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:18:23.790 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 14:18:23.790 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 14:18:23.795 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 14:18:23.862 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 14:18:23.863 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1277 ms
+2019-01-10 14:18:23.900 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 14:18:23.904 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 14:18:23.904 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 14:18:23.904 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 14:18:23.904 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 14:18:24.465 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:18:24.502 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 14:18:24.807 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 14:18:24.820 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 14:18:24.829 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 14:18:24.900 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 14:18:24.942 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#78ff8c23:0/SimpleConnection@699c8f20 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 62268]
+2019-01-10 14:18:25.016 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:18:25.039 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 14:18:25.051 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 14:18:25.054 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.91 seconds (JVM running for 33.519)
+2019-01-10 14:18:31.318 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 14:18:31.318 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 14:18:31.324 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-01-10 14:19:47.368 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:19:47.862 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:19:47.864 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:19:48.237 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:19:48.243 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:19:48.243 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:19:48.245 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:20:20.895 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73874 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 14:20:20.898 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 14:20:20.956 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 14:20:20.957 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 14:20:21.450 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 14:20:21.451 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 14:20:21.555 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 14:20:21.775 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f97f2941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:20:21.829 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$33136b13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:20:22.130 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 14:20:22.139 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:20:22.143 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 14:20:22.143 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 14:20:22.148 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 14:20:22.227 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 14:20:22.228 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1271 ms
+2019-01-10 14:20:22.253 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 14:20:22.256 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 14:20:22.256 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 14:20:22.257 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 14:20:22.257 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 14:20:22.802 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:20:22.838 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 14:20:23.127 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 14:20:23.140 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 14:20:23.151 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 14:20:23.218 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 14:20:23.260 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#545631b7:0/SimpleConnection@75476aac [delegate=amqp://admin@192.168.31.114:5672/, localPort= 62600]
+2019-01-10 14:20:23.329 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:20:23.353 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 14:20:23.363 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 14:20:23.367 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 22.788 seconds (JVM running for 33.373)
+2019-01-10 14:20:36.535 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 14:20:36.535 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 14:20:36.542 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-01-10 14:21:26.579 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:21:27.502 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:21:27.505 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:21:28.501 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:21:28.503 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:21:28.503 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:21:28.504 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:22:01.295 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Starting SpringbootfreemarkerApplication on xuelichundeMacBook-Pro.local with PID 73959 (/Users/xuelichun/IdeaProjects/springbootfreemarker/target/classes started by xuelichun in /Users/xuelichun/IdeaProjects/springbootfreemarker)
+2019-01-10 14:22:01.298 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - No active profile set, falling back to default profiles: default
+2019-01-10 14:22:01.356 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-10 14:22:01.357 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-10 14:22:01.849 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.master]' package. Please check your configuration.
+2019-01-10 14:22:01.850 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc.mapper.slaver]' package. Please check your configuration.
+2019-01-10 14:22:01.951 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2019-01-10 14:22:02.170 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4008e76f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:22:02.224 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$799d2941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:22:02.522 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3789 (http)
+2019-01-10 14:22:02.532 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:22:02.535 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-10 14:22:02.536 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-10 14:22:02.540 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xuelichun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-10 14:22:02.619 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2019-01-10 14:22:02.620 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1263 ms
+2019-01-10 14:22:02.646 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-01-10 14:22:02.649 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 14:22:02.649 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 14:22:02.649 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-10 14:22:02.650 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 14:22:03.193 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:22:03.229 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-10 14:22:03.520 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-10 14:22:03.532 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-10 14:22:03.540 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-10 14:22:03.608 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 192.168.31.114:5672
+2019-01-10 14:22:03.647 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#7e3f46db:0/SimpleConnection@8ddf386 [delegate=amqp://admin@192.168.31.114:5672/, localPort= 62885]
+2019-01-10 14:22:04.110 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3789"]
+2019-01-10 14:22:04.132 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-10 14:22:04.143 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3789 (http) with context path '/springboot'
+2019-01-10 14:22:04.146 [restartedMain] INFO  com.bonc.SpringbootfreemarkerApplication - Started SpringbootfreemarkerApplication in 23.165 seconds (JVM running for 33.749)
+2019-01-10 14:22:15.370 [http-nio-3789-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 14:22:15.371 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-10 14:22:15.377 [http-nio-3789-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-01-10 14:23:25.721 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:23:26.303 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:23:26.306 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-01-10 14:23:26.316 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-01-10 14:23:26.319 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:23:26.319 [Thread-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-01-10 14:23:26.320 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

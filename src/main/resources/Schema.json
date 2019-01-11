@@ -1,0 +1,31 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "id",
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The Id Schema",
+      "default": 0,
+      "examples": [
+        1234
+      ]
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "integer",
+      "title": "The Name Schema",
+      "default": 0,
+      "examples": [
+        12345678
+      ]
+    }
+  }
+}
